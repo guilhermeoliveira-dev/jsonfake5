@@ -1,0 +1,28 @@
+{
+    "clientes": [
+        {"id": 1, "nome": "usuario01", "email": "usuario01@email.com", "senha": "1", "cpf": "11111111111", "telefone": "1111-1111", "idEndereco": 1, "dataAdmissao": "11/11/2014", "fidelidadePontos": 0.0},
+        {"id": 2, "nome": "usuario02", "email": "usuario02@email.com", "senha": "1", "cpf": "11111111111", "telefone": "2222-2222", "idEndereco": 2, "dataAdmissao": "11/11/2014", "fidelidadePontos": 0.0},
+        {"id": 3, "nome": "usuario03", "email": "usuario03@email.com", "senha": "1", "cpf": "11111111111", "telefone": "3333-3333", "idEndereco": 3, "dataAdmissao": "11/11/2014", "fidelidadePontos": 0.0}
+    ],
+    "permissoes": [
+        {"id": 1, "idCargo": 1, "nome": "Cadastrar Produtos"},
+        {"id": 2, "idCargo": 2, "nome": "Cadastrar Produtos"},
+        {"id": 3, "idCargo": 2, "nome": "Cadastrar Funcionarios"},
+        {"id": 4, "idCargo": 3, "nome": "Cadastrar Funcionarios"},
+        {"id": 5, "idCargo": 3, "nome": "Cadastrar Farmacias"}               
+    ],
+    "enderecos": [
+        {"id": 1, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "160", "complemento": "102"},
+        {"id": 2, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "750", "complemento": "301"},
+        {"id": 3, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "2", "complemento": ""},
+        {"id": 4, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "50", "complemento": ""},
+        {"id": 5, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "124", "complemento": ""},
+        {"id": 6, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "27", "complemento": ""}
+    ],
+    "tarjas": [
+        {"id": 1, "nome": "Vermelha sem Retenção", "cor": "Vermelha", "requerReceita": true, "retemReceita": false},
+        {"id": 2, "nome": "Vermelha com Retenção", "cor": "Vermelha", "requerReceita": true, "retemReceita": true},
+        {"id": 3, "nome": "Preta", "cor": "Preta", "requerReceita": true, "retemReceita": true},
+        {"id": 4, "nome": "Sem Tarja", "cor": "", "requerReceita": false, "retemReceita": false}
+    ]
+}
