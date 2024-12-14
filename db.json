@@ -61,18 +61,51 @@
             "fidelidadePontos": 0.0
         }
     ],
-    "permissoes": [
+    "pedidos": [
         {
             "id": 1,
-            "nome": "Cadastrar Produtos"
+            "dataCriacao": "13/11/2024",
+            "status": "finalizado",
+            "valorTotal": 150,
+            "tipoEntrega": "delivery",
+            "dataEntrega": "19/11/2024",
+            "endereco": {
+                "id": 2,
+                "uf": "BA",
+                "cidade": "Xique-Xique",
+                "cep": "47430-970",
+                "bairro": "Copixaba",
+                "logradouro": "R. do Cruzeiro",
+                "numero": "750",
+                "complemento": "301"
+            }
         },
         {
             "id": 2,
-            "nome": "Cadastrar Funcionarios"
+            "dataCriacao": "13/11/2024",
+            "status": "entrega pendente",
+            "valorTotal": 71.98,
+            "tipoEntrega": "busca no estabelecimento",
+            "dataEntrega": "",
+            "endereco": null
         },
         {
             "id": 3,
-            "nome": "Cadastrar Farmacias"
+            "dataCriacao": "13/11/2024",
+            "status": "pagamento pendente",
+            "valorTotal": 17.98,
+            "tipoEntrega": "delivery",
+            "dataEntrega": "",
+            "endereco": {
+                "id": 1,
+                "uf": "BA",
+                "cidade": "Xique-Xique",
+                "cep": "47430-970",
+                "bairro": "Copixaba",
+                "logradouro": "R. do Cruzeiro",
+                "numero": "160",
+                "complemento": "102"
+            }
         }
     ],
     "cargos": [
