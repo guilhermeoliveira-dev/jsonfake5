@@ -75,13 +75,45 @@
             "nome": "Cadastrar Farmacias"
         }
     ],
-    "enderecos": [
-        {"id": 1, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "160", "complemento": "102"},
-        {"id": 2, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "750", "complemento": "301"},
-        {"id": 3, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "2", "complemento": ""},
-        {"id": 4, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "50", "complemento": ""},
-        {"id": 5, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "124", "complemento": ""},
-        {"id": 6, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "27", "complemento": ""}
+    "cargos": [
+        {
+            "id": 1,
+            "nome": "Farmacêutico",
+            "permissoes": [
+                {
+                    "id": 1,
+                    "nome": "Cadastrar Produtos"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "nome": "Gerente",
+            "permissoes": [
+                {
+                    "id": 1,
+                    "nome": "Cadastrar Produtos"
+                },
+                {
+                    "id": 2,
+                    "nome": "Cadastrar Funcionarios"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "Administrador",
+            "permissoes": [
+                {
+                    "id": 2,
+                    "nome": "Cadastrar Funcionarios"
+                },
+                {
+                    "id": 3,
+                    "nome": "Cadastrar Farmacias"
+                }
+            ]
+        }
     ],
     "tarjas": [
         {"id": 1, "nome": "Vermelha sem Retenção", "cor": "Vermelha", "requerReceita": true, "retemReceita": false},
