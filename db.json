@@ -1,15 +1,79 @@
 {
     "clientes": [
-        {"id": 1, "nome": "usuario01", "email": "usuario01@email.com", "senha": "1", "cpf": "11111111111", "telefone": "1111-1111", "idEndereco": 1, "dataAdmissao": "11/11/2014", "fidelidadePontos": 0.0},
-        {"id": 2, "nome": "usuario02", "email": "usuario02@email.com", "senha": "1", "cpf": "11111111111", "telefone": "2222-2222", "idEndereco": 2, "dataAdmissao": "11/11/2014", "fidelidadePontos": 0.0},
-        {"id": 3, "nome": "usuario03", "email": "usuario03@email.com", "senha": "1", "cpf": "11111111111", "telefone": "3333-3333", "idEndereco": 3, "dataAdmissao": "11/11/2014", "fidelidadePontos": 0.0}
+        {
+            "id": 1,
+            "nome": "usuario01",
+            "email": "usuario01@email.com",
+            "senha": "1",
+            "cpf": "11111111111",
+            "telefone": "1111-1111",
+            "endereco": {
+                "id": 1,
+                "uf": "BA",
+                "cidade": "Xique-Xique",
+                "cep": "47430-970",
+                "bairro": "Copixaba",
+                "logradouro": "R. do Cruzeiro",
+                "numero": "160",
+                "complemento": "102"
+            },
+            "dataAdmissao": "11/11/2014",
+            "fidelidadePontos": 0.0
+        },
+        {
+            "id": 2,
+            "nome": "usuario02",
+            "email": "usuario02@email.com",
+            "senha": "1",
+            "cpf": "11111111111",
+            "telefone": "2222-2222",
+            "endereco": {
+                "id": 2,
+                "uf": "BA",
+                "cidade": "Xique-Xique",
+                "cep": "47430-970",
+                "bairro": "Copixaba",
+                "logradouro": "R. do Cruzeiro",
+                "numero": "750",
+                "complemento": "301"
+            },
+            "dataAdmissao": "11/11/2014",
+            "fidelidadePontos": 0.0
+        },
+        {
+            "id": 3,
+            "nome": "usuario03",
+            "email": "usuario03@email.com",
+            "senha": "1",
+            "cpf": "11111111111",
+            "telefone": "3333-3333",
+            "endereco": {
+                "id": 3,
+                "uf": "BA",
+                "cidade": "Xique-Xique",
+                "cep": "47430-970",
+                "bairro": "Copixaba",
+                "logradouro": "R. do Cruzeiro",
+                "numero": "2",
+                "complemento": ""
+            },
+            "dataAdmissao": "11/11/2014",
+            "fidelidadePontos": 0.0
+        }
     ],
     "permissoes": [
-        {"id": 1, "idCargo": 1, "nome": "Cadastrar Produtos"},
-        {"id": 2, "idCargo": 2, "nome": "Cadastrar Produtos"},
-        {"id": 3, "idCargo": 2, "nome": "Cadastrar Funcionarios"},
-        {"id": 4, "idCargo": 3, "nome": "Cadastrar Funcionarios"},
-        {"id": 5, "idCargo": 3, "nome": "Cadastrar Farmacias"}               
+        {
+            "id": 1,
+            "nome": "Cadastrar Produtos"
+        },
+        {
+            "id": 2,
+            "nome": "Cadastrar Funcionarios"
+        },
+        {
+            "id": 3,
+            "nome": "Cadastrar Farmacias"
+        }
     ],
     "enderecos": [
         {"id": 1, "uf": "BA", "cidade": "Xique-Xique", "cep": "47430-970", "bairro": "Copixaba", "logradouro": "R. do Cruzeiro", "numero": "160", "complemento": "102"},
