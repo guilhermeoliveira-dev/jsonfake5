@@ -64,25 +64,25 @@
     "pedidos": [
         {
             "id": 1,
-            "dataCriacao": "13/11/2024",
+            "dataCriacao": "13-11-2024",
             "status": "finalizado",
             "valorTotal": 150,
             "tipoEntrega": "delivery",
-            "dataEntrega": "19/11/2024",
+            "dataEntrega": "19-11-2024",
             "endereco": {
                 "id": 2,
-                "uf": "BA",
-                "cidade": "Xique-Xique",
-                "cep": "47430-970",
-                "bairro": "Copixaba",
-                "logradouro": "R. do Cruzeiro",
-                "numero": "750",
-                "complemento": "301"
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36036-900",
+                "bairro": "São Pedro",
+                "logradouro": "Rua José Lourenço Kelmer",
+                "numero": "s/n",
+                "complemento": "Campus Universitário"
             }
         },
         {
             "id": 2,
-            "dataCriacao": "13/11/2024",
+            "dataCriacao": "13-11-2024",
             "status": "entrega pendente",
             "valorTotal": 71.98,
             "tipoEntrega": "busca no estabelecimento",
@@ -91,20 +91,20 @@
         },
         {
             "id": 3,
-            "dataCriacao": "13/11/2024",
+            "dataCriacao": "13-11-2024",
             "status": "pagamento pendente",
             "valorTotal": 17.98,
             "tipoEntrega": "delivery",
             "dataEntrega": "",
             "endereco": {
                 "id": 1,
-                "uf": "BA",
-                "cidade": "Xique-Xique",
-                "cep": "47430-970",
-                "bairro": "Copixaba",
-                "logradouro": "R. do Cruzeiro",
-                "numero": "160",
-                "complemento": "102"
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1283",
+                "complemento": ""
             }
         }
     ],
