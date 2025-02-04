@@ -9,13 +9,13 @@
             "telefone": "1111-1111",
             "endereco": {
                 "id": 1,
-                "uf": "BA",
-                "cidade": "Xique-Xique",
-                "cep": "47430-970",
-                "bairro": "Copixaba",
-                "logradouro": "R. do Cruzeiro",
-                "numero": "160",
-                "complemento": "102"
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1283",
+                "complemento": ""
             },
             "dataAdmissao": "11-11-2014",
             "fidelidadePontos": 0.0
@@ -29,13 +29,13 @@
             "telefone": "2222-2222",
             "endereco": {
                 "id": 2,
-                "uf": "BA",
-                "cidade": "Xique-Xique",
-                "cep": "47430-970",
-                "bairro": "Copixaba",
-                "logradouro": "R. do Cruzeiro",
-                "numero": "750",
-                "complemento": "301"
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36036-900",
+                "bairro": "São Pedro",
+                "logradouro": "Rua José Lourenço Kelmer",
+                "numero": "s/n",
+                "complemento": "Campus Universitário"
             },
             "dataAdmissao": "11-11-2014",
             "fidelidadePontos": 0.0
@@ -49,12 +49,12 @@
             "telefone": "3333-3333",
             "endereco": {
                 "id": 3,
-                "uf": "BA",
-                "cidade": "Xique-Xique",
-                "cep": "47430-970",
-                "bairro": "Copixaba",
-                "logradouro": "R. do Cruzeiro",
-                "numero": "2",
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1045",
                 "complemento": ""
             },
             "dataAdmissao": "11-11-2014",
