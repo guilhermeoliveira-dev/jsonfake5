@@ -178,8 +178,8 @@
                     }
                 }
             },
-            "dataFabricacao": "10/10/2024",
-            "dataValidade": "30/02/2025",
+            "dataFabricacao": "10-10-2024",
+            "dataValidade": "30-02-2025",
             "farmacia": {
                 "id": 1,
                 "cnpj": "3123123123",
@@ -217,8 +217,8 @@
                     }
                 }
             },
-            "dataFabricacao": "07/10/2024",
-            "dataValidade": "15/08/2025",
+            "dataFabricacao": "07-10-2024",
+            "dataValidade": "15-08-2025",
             "farmacia": {
                 "id": 1,
                 "cnpj": "3123123123",
@@ -256,8 +256,8 @@
                     }
                 }
             },
-            "dataFabricacao": "02/10/2024",
-            "dataValidade": "27/09/2025",
+            "dataFabricacao": "02-10-2024",
+            "dataValidade": "27-09-2025",
             "farmacia": {
                 "id": 1,
                 "cnpj": "3123123123",
@@ -295,8 +295,8 @@
                     }
                 }
             },
-            "dataFabricacao": "02/11/2024",
-            "dataValidade": "27/10/2025",
+            "dataFabricacao": "02-11-2024",
+            "dataValidade": "27-10-2025",
             "farmacia": {
                 "id": 1,
                 "cnpj": "3123123123",
