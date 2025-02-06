@@ -182,10 +182,20 @@
             "dataValidade": "30-02-2025",
             "farmacia": {
                 "id": 1,
-                "cnpj": "3123123123",
-                "nome": "Tengo-Lengo",
-                "email": "tengo-lengo@email.com",
-                "telefone": "4444-4444"
+            "cnpj": "3123123123",
+            "nome": "Farmácia 1",
+            "email": "farmacianumero1@email.com",
+            "telefone": "4444-4444",
+            "endereco": {
+                "id": 1,
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1283",
+                "complemento": ""
+            }
             }
         },
         {
@@ -221,10 +231,20 @@
             "dataValidade": "15-08-2025",
             "farmacia": {
                 "id": 1,
-                "cnpj": "3123123123",
-                "nome": "Tengo-Lengo",
-                "email": "tengo-lengo@email.com",
-                "telefone": "4444-4444"
+            "cnpj": "3123123123",
+            "nome": "Farmácia 1",
+            "email": "farmacianumero1@email.com",
+            "telefone": "4444-4444",
+            "endereco": {
+                "id": 1,
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1283",
+                "complemento": ""
+            }
             }
         },
         {
@@ -260,10 +280,20 @@
             "dataValidade": "27-09-2025",
             "farmacia": {
                 "id": 1,
-                "cnpj": "3123123123",
-                "nome": "Tengo-Lengo",
-                "email": "tengo-lengo@email.com",
-                "telefone": "4444-4444"
+            "cnpj": "3123123123",
+            "nome": "Farmácia 1",
+            "email": "farmacianumero1@email.com",
+            "telefone": "4444-4444",
+            "endereco": {
+                "id": 1,
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1283",
+                "complemento": ""
+            }
             }
         },
         {
@@ -298,11 +328,21 @@
             "dataFabricacao": "02-11-2024",
             "dataValidade": "27-10-2025",
             "farmacia": {
+               "id": 1,
+            "cnpj": "3123123123",
+            "nome": "Farmácia 1",
+            "email": "farmacianumero1@email.com",
+            "telefone": "4444-4444",
+            "endereco": {
                 "id": 1,
-                "cnpj": "3123123123",
-                "nome": "Tengo-Lengo",
-                "email": "tengo-lengo@email.com",
-                "telefone": "4444-4444"
+                "uf": "MG",
+                "cidade": "Juiz de Fora",
+                "cep": "36080-001",
+                "bairro": "Fábrica",
+                "logradouro": "R. Bernado Mascarenhas",
+                "numero": "1283",
+                "complemento": ""
+            }
             }
         }
     ]
