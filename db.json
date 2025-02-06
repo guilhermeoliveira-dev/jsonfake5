@@ -186,16 +186,7 @@
             "nome": "Farmácia 1",
             "email": "farmacianumero1@email.com",
             "telefone": "4444-4444",
-            "endereco": {
-                "id": 1,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "1283",
-                "complemento": ""
-            }
+            "endereco": "XD"
             }
         },
         {
@@ -235,16 +226,7 @@
             "nome": "Farmácia 1",
             "email": "farmacianumero1@email.com",
             "telefone": "4444-4444",
-            "endereco": {
-                "id": 1,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "1283",
-                "complemento": ""
-            }
+            "endereco": "XD"
             }
         },
         {
@@ -284,16 +266,7 @@
             "nome": "Farmácia 1",
             "email": "farmacianumero1@email.com",
             "telefone": "4444-4444",
-            "endereco": {
-                "id": 1,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "1283",
-                "complemento": ""
-            }
+            "endereco": "XD"
             }
         },
         {
@@ -333,16 +306,7 @@
             "nome": "Farmácia 1",
             "email": "farmacianumero1@email.com",
             "telefone": "4444-4444",
-            "endereco": {
-                "id": 1,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "1283",
-                "complemento": ""
-            }
+            "endereco": "XD"
             }
         }
     ]
