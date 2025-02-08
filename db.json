@@ -51,5 +51,54 @@
                 "complemento": "Campus Universitário"
             }
         }
+    ],
+    "vendas": [
+        {
+            "id": 1,
+            "dataVenda": "13-11-2024",
+            "pedido": {
+                "id": 1,
+                "dataCriacao": "13-11-2024",
+                "status": "finalizado",
+                "valorTotal": 150,
+                "tipoEntrega": "delivery",
+                "dataEntrega": "19-11-2024",
+                "endereco": {
+                    "id": 2,
+                    "uf": "MG",
+                    "cidade": "Juiz de Fora",
+                    "cep": "36036-900",
+                    "bairro": "São Pedro",
+                    "logradouro": "Rua José Lourenço Kelmer",
+                    "numero": "s/n",
+                    "complemento": "Campus Universitário"
+                }
+            },
+            "pagamento": {
+                "id": 1,
+                "dataPagamento": "13-11-2024",
+                "valor": 150,
+                "formaPagamento": "credito"
+            } 
+        },
+        {
+            "id": 2,
+            "dataVenda": "13-11-2024",
+            "pedido": {
+                "id": 2,
+                "dataCriacao": "13-11-2024",
+                "status": "entrega pendente",
+                "valorTotal": 71.98,
+                "tipoEntrega": "busca no estabelecimento",
+                "dataEntrega": "",
+                "endereco": null
+            },
+            "pagamento": {
+                "id": 2,
+                "dataPagamento": "13-11-2024",
+                "valor": 150,
+                "formaPagamento": "em especie"
+            }
+        }
     ]
 }
