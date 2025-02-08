@@ -1,12 +1,11 @@
 {
-    "clientes": [
+    "fornecedores": [
         {
             "id": 1,
-            "nome": "usuario01",
-            "email": "usuario01@email.com",
-            "senha": "1",
-            "cpf": "11111111111",
-            "telefone": "1111-1111",
+            "cnpj": "3123123123",
+            "nome": "Fornecedor A",
+            "email": "fornecedorletraa@email.com",
+            "telefone": "4444-4444",
             "endereco": {
                 "id": 1,
                 "uf": "MG",
@@ -16,37 +15,14 @@
                 "logradouro": "R. Bernado Mascarenhas",
                 "numero": "1283",
                 "complemento": ""
-            },
-            "dataAdmissao": "11-11-2014",
-            "fidelidadePontos": 0.0
+            }
         },
         {
             "id": 2,
-            "nome": "usuario02",
-            "email": "usuario02@email.com",
-            "senha": "1",
-            "cpf": "11111111111",
-            "telefone": "2222-2222",
-            "endereco": {
-                "id": 2,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36036-900",
-                "bairro": "São Pedro",
-                "logradouro": "Rua José Lourenço Kelmer",
-                "numero": "s/n",
-                "complemento": "Campus Universitário"
-            },
-            "dataAdmissao": "11-11-2014",
-            "fidelidadePontos": 0.0
-        },
-        {
-            "id": 3,
-            "nome": "usuario03",
-            "email": "usuario03@email.com",
-            "senha": "1",
-            "cpf": "11111111111",
-            "telefone": "3333-3333",
+            "cnpj": "3123123123",
+            "nome": "Fornecedor B",
+            "email": "fornecedorletrab@email.com",
+            "telefone": "4444-4444",
             "endereco": {
                 "id": 3,
                 "uf": "MG",
@@ -56,19 +32,14 @@
                 "logradouro": "R. Bernado Mascarenhas",
                 "numero": "1045",
                 "complemento": ""
-            },
-            "dataAdmissao": "11-11-2014",
-            "fidelidadePontos": 0.0
-        }
-    ],
-    "pedidos": [
+            }
+        },
         {
-            "id": 1,
-            "dataCriacao": "13-11-2024",
-            "status": "finalizado",
-            "valorTotal": 150,
-            "tipoEntrega": "delivery",
-            "dataEntrega": "19-11-2024",
+            "id": 3,
+            "cnpj": "3123123123",
+            "nome": "Fornecedor C",
+            "email": "fornecedorletrac@email.com",
+            "telefone": "4444-4444",
             "endereco": {
                 "id": 2,
                 "uf": "MG",
@@ -78,235 +49,6 @@
                 "logradouro": "Rua José Lourenço Kelmer",
                 "numero": "s/n",
                 "complemento": "Campus Universitário"
-            }
-        },
-        {
-            "id": 2,
-            "dataCriacao": "13-11-2024",
-            "status": "entrega pendente",
-            "valorTotal": 71.98,
-            "tipoEntrega": "busca no estabelecimento",
-            "dataEntrega": "",
-            "endereco": null
-        },
-        {
-            "id": 3,
-            "dataCriacao": "13-11-2024",
-            "status": "pagamento pendente",
-            "valorTotal": 17.98,
-            "tipoEntrega": "delivery",
-            "dataEntrega": "",
-            "endereco": {
-                "id": 1,
-                "uf": "MG",
-                "cidade": "Juiz de Fora",
-                "cep": "36080-001",
-                "bairro": "Fábrica",
-                "logradouro": "R. Bernado Mascarenhas",
-                "numero": "1283",
-                "complemento": ""
-            }
-        }
-    ],
-    "cargos": [
-        {
-            "id": 1,
-            "nome": "Farmacêutico",
-            "permissoes": [
-                {
-                    "id": 1,
-                    "nome": "Cadastrar Produtos"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "nome": "Gerente",
-            "permissoes": [
-                {
-                    "id": 1,
-                    "nome": "Cadastrar Produtos"
-                },
-                {
-                    "id": 2,
-                    "nome": "Cadastrar Funcionarios"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "nome": "Administrador",
-            "permissoes": [
-                {
-                    "id": 2,
-                    "nome": "Cadastrar Funcionarios"
-                },
-                {
-                    "id": 3,
-                    "nome": "Cadastrar Farmacias"
-                }
-            ]
-        }
-    ],
-    "estoques": [
-        {
-            "id": 1,
-            "quantidade": 10,
-            "produto": {
-                "id": 1,
-                "nome": "Omega 3",
-                "descricao": "faz bem pra saude",
-                "preco": 50.0,
-                "requerLote": true,
-                "peso": 50,
-                "tarja": {
-                    "id": 4,
-                    "nome": "Sem Tarja",
-                    "cor": "",
-                    "requerReceita": false,
-                    "retemReceita": false
-                },
-                "categoria": {
-                    "id": 2,
-                    "nome": "Suplemento Alimenticio",
-                    "descricao": "Medicamentos destinados a complementar a nutricao.",
-                    "categoriaPai": {
-                        "id": 5,
-                        "nome": "Produto Alimentício",
-                        "descricao": "Produtos alimentícios de forma geral.",
-                        "categoriaPai": null
-                    }
-                }
-            },
-            "dataFabricacao": "10-10-2024",
-            "dataValidade": "30-02-2025",
-            "farmacia": {
-                "id": 1,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 1",
-            "email": "farmacianumero1@email.com",
-            "telefone": "4444-4444",
-            "endereco": "XD"
-            }
-        },
-        {
-            "id": 2,
-            "quantidade": 50,
-            "produto": {
-                "id": 2,
-                "nome": "Sachê Whiskas",
-                "descricao": "sachê de ração para gatos",
-                "preco": 4.0,
-                "requerLote": true,
-                "peso": 100,
-                "tarja": {
-                    "id": 4,
-                    "nome": "Sem Tarja",
-                    "cor": "",
-                    "requerReceita": false,
-                    "retemReceita": false
-                },
-                "categoria": {
-                    "id": 4,
-                    "nome": "Ração Animal",
-                    "descricao": "Ração para pets.",
-                    "categoriaPai": {
-                        "id": 5,
-                        "nome": "Produto Alimentício",
-                        "descricao": "Produtos alimentícios de forma geral.",
-                        "categoriaPai": null
-                    }
-                }
-            },
-            "dataFabricacao": "07-10-2024",
-            "dataValidade": "15-08-2025",
-            "farmacia": {
-                "id": 1,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 1",
-            "email": "farmacianumero1@email.com",
-            "telefone": "4444-4444",
-            "endereco": "XD"
-            }
-        },
-        {
-            "id": 3,
-            "quantidade": 34,
-            "produto": {
-                "id": 3,
-                "nome": "Cloridrato de Propranolol",
-                "descricao": "Cloridrato de Propranolol 40mg Genérico Pharlab 30 Comprimidos",
-                "preco": 8.99,
-                "requerLote": true,
-                "peso": 50,
-                "tarja": {
-                    "id": 2,
-                    "nome": "Vermelha com Retenção",
-                    "cor": "Vermelha",
-                    "requerReceita": true,
-                    "retemReceita": true
-                },
-                "categoria": {
-                    "id": 3,
-                    "nome": "Betabloqueadores",
-                    "descricao": "Nao sei explicar isso, acho que e calmante sei la, tirei do google.",
-                    "categoriaPai": {
-                        "id": 1,
-                        "nome": "Medicamento",
-                        "descricao": "Medicamentos no geral.",
-                        "categoriaPai": null
-                    }
-                }
-            },
-            "dataFabricacao": "02-10-2024",
-            "dataValidade": "27-09-2025",
-            "farmacia": {
-                "id": 1,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 1",
-            "email": "farmacianumero1@email.com",
-            "telefone": "4444-4444",
-            "endereco": "XD"
-            }
-        },
-        {
-            "id": 4,
-            "quantidade": 21,
-            "produto": {
-                "id": 3,
-                "nome": "Cloridrato de Propranolol",
-                "descricao": "Cloridrato de Propranolol 40mg Genérico Pharlab 30 Comprimidos",
-                "preco": 8.99,
-                "requerLote": true,
-                "peso": 50,
-                "tarja": {
-                    "id": 2,
-                    "nome": "Vermelha com Retenção",
-                    "cor": "Vermelha",
-                    "requerReceita": true,
-                    "retemReceita": true
-                },
-                "categoria": {
-                    "id": 3,
-                    "nome": "Betabloqueadores",
-                    "descricao": "Nao sei explicar isso, acho que e calmante sei la, tirei do google.",
-                    "categoriaPai": {
-                        "id": 1,
-                        "nome": "Medicamento",
-                        "descricao": "Medicamentos no geral.",
-                        "categoriaPai": null
-                    }
-                }
-            },
-            "dataFabricacao": "02-11-2024",
-            "dataValidade": "27-10-2025",
-            "farmacia": {
-               "id": 1,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 1",
-            "email": "farmacianumero1@email.com",
-            "telefone": "4444-4444",
-            "endereco": "XD"
             }
         }
     ]
