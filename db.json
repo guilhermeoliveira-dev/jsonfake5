@@ -58,6 +58,7 @@
             "dataVenda": "13-11-2024",
             "pedido": {
                 "id": 1,
+                "codigo": "20241113000000",
                 "dataCriacao": "13-11-2024",
                 "status": "finalizado",
                 "valorTotal": 150,
@@ -86,6 +87,7 @@
             "dataVenda": "13-11-2024",
             "pedido": {
                 "id": 2,
+                "codigo": "20241113000001",
                 "dataCriacao": "13-11-2024",
                 "status": "entrega pendente",
                 "valorTotal": 71.98,
