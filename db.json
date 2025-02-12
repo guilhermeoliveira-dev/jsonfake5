@@ -52,6 +52,46 @@
             }
         }
     ],
+    "cargos": [
+        {
+            "id": 1,
+            "nome": "Farmacêutico",
+            "permissoes": [
+                {
+                    "id": 1,
+                    "nome": "Cadastrar Produtos"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nome": "Gerente",
+            "permissoes": [
+                {
+                    "id": 1,
+                    "nome": "Cadastrar Produtos"
+                },
+                {
+                    "id": 2,
+                    "nome": "Cadastrar Funcionarios"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nome": "Administrador",
+            "permissoes": [
+                {
+                    "id": 2,
+                    "nome": "Cadastrar Funcionarios"
+                },
+                {
+                    "id": 3,
+                    "nome": "Cadastrar Farmacias"
+                }
+            ]
+        }
+    ],
     "vendas": [
         {
             "id": 1,
