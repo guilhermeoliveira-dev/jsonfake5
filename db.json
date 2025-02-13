@@ -142,5 +142,55 @@
                 "formaPagamento": "em especie"
             }
         }
+    ],
+    "itensPedido": [
+        {
+            "id": 1,
+            "quantidade": 3,
+            "precoUnitario": 50,
+            "idPedido": 1,
+            "idEstoque": "1",
+            "idReceita": 0
+        },
+        {
+            "id": 2,
+            "quantidade": 1,
+            "precoUnitario": 4,
+            "idPedido": 2,
+            "idEstoque": "2",
+            "idReceita": 0
+        },
+        {
+            "id": 3,
+            "quantidade": 1,
+            "precoUnitario": 50,
+            "idPedido": 2,
+            "idEstoque": "1",
+            "idReceita": 0
+        },
+        {
+            "id": 4,
+            "quantidade": 2,
+            "precoUnitario": 8.99,
+            "idPedido": 2,
+            "idEstoque": "3",
+            "idReceita": 1
+        },
+        {
+            "id": 5,
+            "quantidade": 1,
+            "precoUnitario": 8.99,
+            "idPedido": 3,
+            "idEstoque": "3",
+            "idReceita": 2
+        },
+        {
+            "id": 6,
+            "quantidade": 2,
+            "precoUnitario": 8.99,
+            "idPedido": 3,
+            "idEstoque": "4",
+            "idReceita": 3
+        }
     ]
 }
