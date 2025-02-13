@@ -25,7 +25,7 @@
                         "cor": "",
                         "requerReceita": false,
                         "retemReceita": false
-                    },
+                    }
                     
                 },
                 "dataFabricacao": "10-10-2024",
@@ -65,7 +65,7 @@
                         "cor": "",
                         "requerReceita": false,
                         "retemReceita": false
-                    },
+                    }
                     
                 },
                 "dataFabricacao": "07-10-2024",
@@ -105,7 +105,7 @@
                         "cor": "",
                         "requerReceita": false,
                         "retemReceita": false
-                    },
+                    }
                    
                 },
                 "dataFabricacao": "10-10-2024",
@@ -145,7 +145,7 @@
                         "cor": "Vermelha",
                         "requerReceita": true,
                         "retemReceita": true
-                    },
+                    }
                     
                 },
                 "dataFabricacao": "02-10-2024",
@@ -185,7 +185,7 @@
                         "cor": "Vermelha",
                         "requerReceita": true,
                         "retemReceita": true
-                    },
+                    }
                    
                 },
                 "dataFabricacao": "02-10-2024",
@@ -225,7 +225,7 @@
                         "cor": "Vermelha",
                         "requerReceita": true,
                         "retemReceita": true
-                    },
+                    }
                     
                     
                 },
