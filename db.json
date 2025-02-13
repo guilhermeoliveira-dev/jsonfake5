@@ -26,17 +26,7 @@
                         "requerReceita": false,
                         "retemReceita": false
                     },
-                    "categoria": {
-                        "id": 2,
-                        "nome": "Suplemento alimentício",
-                        "descricao": "Medicamentos destinados a complementar a alimentação nutricional.",
-                        "categoriaPai": {
-                            "id": 5,
-                            "nome": "Produto Alimentício",
-                            "descricao": "Produtos alimentícios em geral.",
-                            "categoriaPai": null
-                        }
-                    }
+                    
                 },
                 "dataFabricacao": "10-10-2024",
                 "dataValidade": "30-02-2025",
@@ -76,17 +66,7 @@
                         "requerReceita": false,
                         "retemReceita": false
                     },
-                    "categoria": {
-                        "id": 4,
-                        "nome": "Ração Animal",
-                        "descricao": "Ração para animais de estimação.",
-                        "categoriaPai": {
-                            "id": 5,
-                            "nome": "Produto Alimentício",
-                            "descricao": "Produtos alimentícios em geral.",
-                            "categoriaPai": null
-                        }
-                    }
+                    
                 },
                 "dataFabricacao": "07-10-2024",
                 "dataValidade": "15-08-2025",
@@ -126,17 +106,7 @@
                         "requerReceita": false,
                         "retemReceita": false
                     },
-                    "categoria": {
-                        "id": 2,
-                        "nome": "Suplemento alimentício",
-                        "descricao": "Medicamentos destinados a complementar a alimentação nutricional.",
-                        "categoriaPai": {
-                            "id": 5,
-                            "nome": "Produto Alimentício",
-                            "descricao": "Produtos alimentícios em geral.",
-                            "categoriaPai": null
-                        }
-                    }
+                   
                 },
                 "dataFabricacao": "10-10-2024",
                 "dataValidade": "30-02-2025",
@@ -176,17 +146,7 @@
                         "requerReceita": true,
                         "retemReceita": true
                     },
-                    "categoria": {
-                        "id": 3,
-                        "nome": "Betabloqueadores",
-                        "descricao": "Não sei explicar isso direito. Acho que é um calmante, sei lá... Eu pesquisei no Google.",
-                        "categoriaPai": {
-                            "id": 1,
-                            "nome": "Medicamento",
-                            "descricao": "Medicamentos no geral.",
-                            "categoriaPai": null
-                        }
-                    }
+                    
                 },
                 "dataFabricacao": "02-10-2024",
                 "dataValidade": "27-09-2025",
@@ -226,17 +186,7 @@
                         "requerReceita": true,
                         "retemReceita": true
                     },
-                    "categoria": {
-                        "id": 3,
-                        "nome": "Betabloqueadores",
-                        "descricao": "Não sei explicar isso direito. Acho que é um calmante, sei lá... Eu pesquisei no Google.",
-                        "categoriaPai": {
-                            "id": 1,
-                            "nome": "Medicamento",
-                            "descricao": "Medicamentos no geral.",
-                            "categoriaPai": null
-                        }
-                    }
+                   
                 },
                 "dataFabricacao": "02-10-2024",
                 "dataValidade": "27-09-2025",
@@ -276,17 +226,8 @@
                         "requerReceita": true,
                         "retemReceita": true
                     },
-                    "categoria": {
-                        "id": 3,
-                        "nome": "Betabloqueadores",
-                        "descricao": "Não sei explicar isso direito. Acho que é um calmante, sei lá... Eu pesquisei no Google.",
-                        "categoriaPai": {
-                            "id": 1,
-                            "nome": "Medicamento",
-                            "descricao": "Medicamentos no geral.",
-                            "categoriaPai": null
-                        }
-                    }
+                    
+                    
                 },
                 "dataFabricacao": "02-11-2024",
                 "dataValidade": "27-10-2025",
